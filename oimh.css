@@ -1,0 +1,57 @@
+:not(.ohio) .meme {
+    display: none;
+}
+
+:not(.ohio) .video {
+    display: all;
+}
+
+.dark-mode p, .dark-mode li {
+    color: #000;
+}
+
+.button{
+    cursor: pointer;
+    padding: 10px 20px;
+    isolation: isolate;
+}
+
+.dark-mode .logo {
+    mix-blend-mode: difference;
+  }
+
+.dark-mode{
+    filter: invert(100%);
+    background: #800;
+}
+
+.dark-mode .video {
+    filter: invert(100%);
+}
+
+.ohio p, .ohio li {
+    color: #000;
+}
+
+.ohio .logo {
+    mix-blend-mode: difference;
+}
+
+.ohio{
+    filter: brightness(50%);
+    filter: contrast(1.79);
+    filter: hue-rotate(180deg);
+    background: #79E;
+}
+
+.ohio .video-wrapper {
+    filter: invert(89%);
+}
+
+.ohio .meme {
+    display: contents;
+}
+
+.ohio .video {
+    display: none;
+}
